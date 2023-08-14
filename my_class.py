@@ -41,7 +41,7 @@ if __name__ == "__main__":
             'Salary': float,
             'Investment': float
         }
-    csv_formatter = CSVFormatter(r"C:\Users\THINK\Desktop\abd\Mix\sample_proj-sample\sample.csv", schema)
+    csv_formatter = CSVFormatter(r"C:\Desktop\python_dev\sample.csv", schema)
     formatted_df = csv_formatter.fix_formatting()
 
     if formatted_df is not None:
